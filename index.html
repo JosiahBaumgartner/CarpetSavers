@@ -25,8 +25,9 @@ text-align: center;
 }
 .nav {
   box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
-  border-radius:200px;
-  position: center;
+  border-radius:2000px;
+  position: sticky;
+  top: 10px;
   width:100%;
   font-size: 3vmax;
   font-size: 3vmin;
@@ -92,7 +93,17 @@ p {
   font-family: 'Montserrat', sans-serif;
   margin:0% 10% 0% 10%;
 }
+#navblock{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#fff;
+padding:0% 0% 2.7em 0%;
+}
 </style> </head>
+  <body>
+    <div id="navblock"></div>
   <body>
     <table class="nav">
       <tbody>
